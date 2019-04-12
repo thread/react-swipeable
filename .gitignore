@@ -2,6 +2,9 @@ node_modules
 TODO
 npm-debug.log
 .DS_Store
-lib
 es
 examples/static
+
+# we want lib to be in the gitignore, but can't while Thread depends on this as
+# a GitHub dependency
+# lib
